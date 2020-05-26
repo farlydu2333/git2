@@ -1,0 +1,45 @@
+﻿Ctrl+n 新建文本文档
+Ctrl+s 保存
+github.com 
+全球最大的软件资源开发共享平台/社区
+版本控制工具 oschina.com/gitlab.com/github.com
+git
+git命令：
+//授权本地电脑生成秘钥
+ssh-keygen -t rsa -C '邮箱'
+ssh -T git@github.com //本地电脑秘钥配对
+git config  --global user.name ‘github的用户名’
+git config user.name 查看当前已配置的用户名
+//配置git邮箱
+git config --user.email '邮箱'
+git config --user.email //查看邮箱
+
+
+Linux 基础命令
+ls 查看文件 ls -l 查看文件 详细权限
+echo 'xxx>1.txt 输出 xxx 到 1.txt'
+> 覆盖
+>> 追加内容
+touch 创建文件
+mkdir 创建文件夹
+rm 删除
+ls -a 列出当前文件下的所有内容
+
+git 仓库：
+git init
+// 初始化一个本地git仓库 在当前文件夹位置生成一个.git 文件夹
+git status  //查看当前仓库情况
+git add +当前拥有的文件名称   //添加文件到缓存区
+git commit -m '注释内容'  //提交到缓存区并添加注释
+git remote add origin 
+git@github.com:farlydu2333/git1.git
+//指定远程端仓库地址
+git push -u origin master // 推送到远程端
+// 练习：
+在D盘下创建git2 文件夹
+建立 本地仓库 建立远程仓库  推送1.txt
+git add . //添加当前文件夹所有内容
+
+
+
+
